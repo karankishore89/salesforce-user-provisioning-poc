@@ -1,0 +1,13 @@
+.sfdx/
+.sf/
+.vscode/
+node_modules/
+
+coverage/
+test-results/
+
+*.log
+
+.env
+
+.DS_Store

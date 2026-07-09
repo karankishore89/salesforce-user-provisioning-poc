@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <!-- Apex Classes -->
+    <types>
+        <members>JobCodeConfig</members>
+        <members>JobCodeConfigService</members>
+        <members>UserProvisioningEventHandler</members>
+        <members>UserTriggerHandler</members>
+        <name>ApexClass</name>
+    </types>
+
+    <!-- Apex Triggers -->
+    <types>
+        <members>UserTrigger</members>
+        <members>UserProvisioningEventTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+
+    <!-- Platform Event -->
+    <types>
+        <members>User_Provisioning_Event__e</members>
+        <name>CustomObject</name>
+    </types>
+
+    <!-- User Custom Field -->
+    <types>
+        <members>User.Job_Code__c</members>
+        <name>CustomField</name>
+    </types>
+
+    <!-- Custom Metadata Types -->
+    <types>
+        <members>Job_Code_Setting__mdt</members>
+        <members>Job_Code_Permission_Set__mdt</members>
+        <members>Job_Code_Public_Group__mdt</members>
+        <name>CustomObject</name>
+    </types>
+
+    <!-- Custom Metadata Records -->
+    <types>
+        <members>Job_Code_Setting__mdt.*</members>
+        <members>Job_Code_Permission_Set__mdt.*</members>
+        <members>Job_Code_Public_Group__mdt.*</members>
+        <name>CustomMetadata</name>
+    </types>
+
+    <!-- Permission Sets -->
+    <types>
+        <members>Sales_Manager_PS</members>
+        <name>PermissionSet</name>
+    </types>
+
+    <!-- Public Groups -->
+    <types>
+        <members>HR_Team</members>
+        <name>Group</name>
+    </types>
+
+    <!-- User Roles -->
+    <types>
+        <members>Test_User</members>
+        <name>Role</name>
+    </types>
+
+    <version>67.0</version>
+
+</Package>
